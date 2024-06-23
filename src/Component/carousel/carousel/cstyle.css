@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Titan+One&display=swap');
+.content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: -60;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	color: white;
+}
+.content h1{
+	top: -80;
+	font-size: 80px;
+}
+.content span{
+	display: none;
+}
+.main1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0,0,0, 1);
+	opacity: 1; 
+
+	
+	/* border: 1px solid black; */
+}
+@media (max-width:450px){
+	#housevideo{
+		/* height:200%; */
+	}
+	.content{
+		top: -45px;
+		
+	}
+	.content h1 {
+		font-size: 1rem;
+	}
+	.content p {
+		font-size: 0.9rem;
+	}
+	
+	
+}
+@media (max-width:995px){
+	.content{
+		top: 20px;
+	}
+	.content h1 {
+		font-size: 1rem;
+	}
+	.content p {
+		font-size: 0.9rem;
+	}
+	
+	
+}
+@media (max-width:525px){
+	.content{
+		top: -100px;
+	}
+	.content h1 {
+		font-size: 1rem;
+	}
+	.content p {
+		font-size: 0.6rem;
+	}
+	
+	
+}
+@media (max-width:1070px){
+	.content{
+		top: -130px;
+	}
+	.content h1 {
+		z-index: 1;
+		font-size: 2.2rem;
+
+	}
+	.content p {
+		font-size: 0.4rem;
+		display: none;
+	}
+	.content span{
+		display: contents;
+		
+		font-size: 10px;
+
+	}
+	
+	
+}
+
+
+#housevideo {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+
+}
+
